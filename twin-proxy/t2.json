@@ -1,0 +1,1 @@
+{"deviceId":"myFestoDevice","properties":{"desired":"\n{\n    \"Tank101overflowStatus\":false,\n    \"Tank102levelvalue\":15.0,\n    \"Tank102overflowStatus\":false,\n    \"ValveStatus\":false,\n    \"Tank101levelvalue\":42.0,\n    \"PumpStatus\":false,\n    \"Tank101maximumLevelStatus\":false,\n    \"Tank101minimumLevelStatus\":false\n}"}}
