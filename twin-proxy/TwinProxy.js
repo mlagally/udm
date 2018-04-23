@@ -64,6 +64,7 @@ function onStartPump(request, response) {
         'Authorization': 'Basic ' + new Buffer(username + ':' + passw).toString('base64')
       }
     };
+//    options.path='/iot/api/v2/apps/'+applicationId+'/devices/'+deviceId+'/deviceModels/urn%3Acom%3Asiemens%3Awot%3AFestoPlant/actions/StartPump';
 
     const req = https.request(options, (res) => {
       console.log('statusCode:', res.statusCode);
